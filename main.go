@@ -11,10 +11,9 @@ import (
 )
 
 var (
-	sec float64
-	h   = flag.Float64("h", 0, "Hour")
-	m   = flag.Float64("m", 0, "Minute")
-	ms  = flag.Float64("ms", 0, "Millisecond")
+	h  = flag.Float64("h", 0, "Hour")
+	m  = flag.Float64("m", 0, "Minute")
+	ms = flag.Float64("ms", 0, "Millisecond")
 )
 
 func main() {
